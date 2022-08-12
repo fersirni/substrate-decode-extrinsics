@@ -1,0 +1,28 @@
+{
+  "name": "substrate-decode-extrinsics",
+  "version": "1.0.0",
+  "description": "The main idea is to decode the extrinsics data from a block",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --fix",
+    "build:watch": "tsc --watch",
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fersirni/substrate-decode-extrinsics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fersirni/substrate-decode-extrinsics/issues"
+  },
+  "homepage": "https://github.com/fersirni/substrate-decode-extrinsics#readme",
+  "dependencies": {
+    "@polkadot/api": "^9.1.1",
+    "@substrate/txwrapper-core": "^3.1.7",
+    "nodemon": "^2.0.19"
+  }
+}
